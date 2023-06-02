@@ -1,6 +1,6 @@
 function def() {
   var min = 1;
-  var max = 67996;
+  var max = 80000;
   var rand = Math.floor(Math.random() * (max - min + 1)) + min;
   var url = "https://www.larousse.fr/dictionnaires/francais/mot/" + rand;
 
